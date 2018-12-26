@@ -1,0 +1,9 @@
+{
+  "name": "distance-comparison",
+  "version": "0.1.0",
+  "description": "Compare haversine and Vincenty/Karney distance for accuracy",
+  "main": "index.js",
+  "repository": "https://github.com/anandaroop/distance-comparison",
+  "author": "Anandaroop Roy <anandaroop.roy+github@gmail.com>",
+  "license": "MIT"
+}
