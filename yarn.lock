@@ -1217,6 +1217,11 @@ earcut@^2.0.0:
   resolved "https://registry.yarnpkg.com/earcut/-/earcut-2.1.4.tgz#6b161f89bfe4bb08576b9e8af165e1477d6a1c02"
   integrity sha512-ttRjmPD5oaTtXOoxhFp9aZvMB14kBjapYaiBuzBB1elOgSLU9P2Ev86G2OClBg+uspUXERsIzXKpUWweH2K4Xg==
 
+geographiclib@^1.49.0:
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/geographiclib/-/geographiclib-1.49.0.tgz#20af5d0044a0c2b4840b158ec25cf2f2ec5d0ff2"
+  integrity sha1-IK9dAESgwrSECxWOwlzy8uxdD/I=
+
 geojson-equality@0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/geojson-equality/-/geojson-equality-0.1.6.tgz#a171374ef043e5d4797995840bae4648e0752d72"
