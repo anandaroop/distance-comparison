@@ -7,7 +7,8 @@
   "author": "Anandaroop Roy <anandaroop.roy+github@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@turf/turf": "^5.1.6",
+    "@turf/distance": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
     "geographiclib": "^1.49.0"
   },
   "devDependencies": {

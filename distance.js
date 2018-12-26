@@ -1,4 +1,5 @@
-import * as turf from '@turf/turf'
+import { point } from '@turf/helpers'
+import  distance from '@turf/distance'
 import GeographicLib from 'geographiclib'
 
 export class Distance {
@@ -17,10 +18,10 @@ export class Distance {
 
   haversineDistance() {
     const { p1, p2 } = this
-    const from = turf.point([p1.lng, p1.lat])
-    const to = turf.point([p2.lng, p2.lat])
-    const distance = turf.distance(from, to) // km
-    return (distance * 1000).toFixed(3) // meters
+    const from = point([p1.lng, p1.lat])
+    const to = point([p2.lng, p2.lat])
+    const dist = distance(from, to) // km
+    return (dist * 1000).toFixed(3) // meters
   }
 
   karneyDistance() {
